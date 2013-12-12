@@ -1,0 +1,63 @@
+object AnimalsForm: TAnimalsForm
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 567
+  ClientWidth = 384
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  OnCreate = FormCreate
+  DesignerMobile = True
+  DesignerWidth = 384
+  DesignerHeight = 592
+  DesignerDeviceName = 'Google Nexus 4'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object mmoLog: TMemo
+    Touch.InteractiveGestures = [igPan, igLongTap, igDoubleTap]
+    Align = alBottom
+    Height = 191.000000000000000000
+    Position.Y = 376.000000000000000000
+    TabOrder = 0
+    Visible = False
+    Width = 384.000000000000000000
+    ReadOnly = True
+  end
+  object pnlClient: TPanel
+    Align = alClient
+    Height = 567.000000000000000000
+    Width = 384.000000000000000000
+    TabOrder = 1
+    object btnPrev: TSpeedButton
+      Align = alLeft
+      Height = 48.000000000000000000
+      Position.Y = 260.000000000000000000
+      Text = '<'
+      Trimming = ttCharacter
+      Width = 41.000000000000000000
+      OnClick = btnPrevClick
+    end
+    object btnNext: TSpeedButton
+      Align = alRight
+      Height = 48.000000000000000000
+      Position.X = 343.000000000000000000
+      Position.Y = 260.000000000000000000
+      Text = '>'
+      Trimming = ttCharacter
+      Width = 41.000000000000000000
+      OnClick = btnNextClick
+    end
+    object imgPicture: TImage
+      MultiResBitmap = <
+        item
+        end
+        item
+          Scale = 2.000000000000000000
+        end>
+      Align = alClient
+      Height = 567.000000000000000000
+      Width = 302.000000000000000000
+    end
+  end
+end
