@@ -1,0 +1,5 @@
+MyImage_1 RCDATA "resources\\images\\lemmling_Cartoon_cat.png"
+MyImage_2 RCDATA "resources\\images\\lemmling_Cartoon_goat.png"
+MyImage_3 RCDATA "resources\\images\\lemmling_Cartoon_owl.png"
+MyImage_4 RCDATA "resources\\images\\lemmling_Cartoon_sheep.png"
+
